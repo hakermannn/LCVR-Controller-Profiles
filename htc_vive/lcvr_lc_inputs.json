@@ -286,7 +286,7 @@
         {
           "name": "Open menu: Menu Button",
           "id": "b73f442d-bbd4-45ad-87d5-34cba090fa9b",
-          "path": "<XRController>{LeftHand}/menuButton",
+          "path": "<XRController>{LeftHand}/menu",
           "interactions": "",
           "processors": "",
           "groups": "",
