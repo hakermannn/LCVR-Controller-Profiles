@@ -284,9 +284,9 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Open menu: Primary Button",
+          "name": "Open menu: Menu Button",
           "id": "b73f442d-bbd4-45ad-87d5-34cba090fa9b",
-          "path": "<XRController>{LeftHand}/primaryButton",
+          "path": "<XRController>{LeftHand}/menu",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -369,6 +369,28 @@
           "processors": "",
           "groups": "",
           "action": "PingScan",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "Secondary Use: Left Grip Button",
+          "id": "98208326-0c62-44ca-8a9c-7d2040e8ef05",
+          "path": "<XRController>{LeftHand}/gripButton",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "ItemSecondaryUse",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "Tertiary Use: Right Grip Button",
+          "id": "92390ba9-1945-4659-abce-9b00cba8fb4b",
+          "path": "<XRController>{RightHand}/gripButton",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "ItemTertiaryUse",
           "isComposite": false,
           "isPartOfComposite": false
         },

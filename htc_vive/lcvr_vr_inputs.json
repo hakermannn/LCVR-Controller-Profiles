@@ -279,7 +279,7 @@
         {
           "name": "",
           "id": "b3c1f575-6801-423a-9493-d928349ee025",
-          "path": "<XRController>{LeftHand}/primaryButton",
+          "path": "<XRController>{rightHand}/menu",
           "interactions": "",
           "processors": "",
           "groups": "",
