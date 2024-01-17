@@ -14,6 +14,8 @@ This repo contains a list of input binding overrides that can be used to make di
 | `index_touchpads` | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.   |
 | `htc_vive`        | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                 |
 | `crouch_switch`   | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller|
+| `wmr_rebound_jump_and_drop`   | @Collin8000                   | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2
+
 
 # Applying a custom profile
 
