@@ -15,7 +15,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `htc_vive`        | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                 |
 | `crouch_switch`   | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller|
 | `wmr_rebound_jump_and_drop`   | @Collin8000                   | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2
-
+| `quest_ptt`       | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X' |
 
 # Applying a custom profile
 
