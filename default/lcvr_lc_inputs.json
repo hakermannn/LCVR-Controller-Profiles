@@ -273,17 +273,6 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Sprint: Left Joystick Click",
-          "id": "c243b846-2159-41a2-87d5-5a36f89e70da",
-          "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
-          "interactions": "",
-          "processors": "",
-          "groups": "",
-          "action": "Sprint",
-          "isComposite": false,
-          "isPartOfComposite": false
-        },
-        {
           "name": "Open menu: X",
           "id": "b73f442d-bbd4-45ad-87d5-34cba090fa9b",
           "path": "<XRController>{LeftHand}/primaryButton",
@@ -291,17 +280,6 @@
           "processors": "",
           "groups": "",
           "action": "OpenMenu",
-          "isComposite": false,
-          "isPartOfComposite": false
-        },
-        {
-          "name": "Interact: Right Grip Button",
-          "id": "a7e5a03c-3ab7-45be-970a-a9c2963502fc",
-          "path": "<XRController>{RightHand}/gripButton",
-          "interactions": "",
-          "processors": "",
-          "groups": "",
-          "action": "Interact",
           "isComposite": false,
           "isPartOfComposite": false
         },
