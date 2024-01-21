@@ -13,7 +13,7 @@
 |      Crouch      | Ctrl             | A                 |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
-|     Discard      | G                | B                 |                                                                   |
+|     Discard      | G                | R Joystick Button |                                                                   |
 |    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
