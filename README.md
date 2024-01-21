@@ -13,7 +13,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `wmr` _(DEPRECATED)_                       | @CH3k                                    | This just adds support for WMR remotes, jump is bound to right touchpad, Drop Item is bound to left touchpad                       |
 | `index_touchpads` _(DEPRECATED)_           | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                 |
 | `htc_vive` _(DEPRECATED)_                  | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                               |
-| `crouch_switch` _(DEPRECATED)_             | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller |
+| `crouch_switch`                            | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller. Also adds binds for emotes.|
 | `wmr_rebound_jump_and_drop` _(DEPRECATED)_ | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'      |
 
