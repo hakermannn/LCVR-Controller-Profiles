@@ -16,7 +16,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `crouch_switch`                            | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller. Also adds binds for emotes.|
 | `wmr_rebound_jump_and_drop` _(DEPRECATED)_ | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'      |
-| `joystick_jump`                            | @hmcl9                                   | This binds jumping to right joystick up, and moves item swapping to A and B for forwards and backwards respectively              |
+| `joystick_jump`                            | @hmcl9                                   | This binds jumping to the right joystick Y-axis, and moves item swapping to A and B for forwards and backwards respectively              |
 
 > ⚠️ _(DEPRECATED)_ profiles are not (yet) compatible with the LCVR 1.1.0 update! They will only work on LCVR 1.0.0 and 1.0.1!
 
