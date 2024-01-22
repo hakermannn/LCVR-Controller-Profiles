@@ -264,7 +264,7 @@
                 {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/primary2DAxis/y{greater}0.25 ",
+                    "path": "<XRController>{RightHand}/primary2DAxis/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -287,17 +287,6 @@
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
                     "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e8b58723-975b-4d27-a75d-daf6899a36f9",
-                    "path": "<XRController>{RightHand}/primary2DAxis/y{less}0.25 ",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

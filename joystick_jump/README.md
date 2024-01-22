@@ -5,11 +5,11 @@
 | :--------------: | ---------------- | ----------------- | ----------------------------------------------------------------- |
 |       Look       | Mouse Movement   | HMD               | Will use right joystick X for snap-turning                        |
 |       Move       | WASD, Arrow Keys | Left Joystick     |                                                                   |
-|       Jump       | Space            | Right Joystick Up |                                                                   |
+|       Jump       | Space            | R Joystick Y Axis |                                                                   |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | Menu Button       |                                                                   |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
-|      Crouch      | Ctrl             | R Joystick Button | Also Right Joystick Down                                          |
+|      Crouch      | Ctrl             | R Joystick Button |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
 |     Discard      | G                | X                 |                                                                   |
