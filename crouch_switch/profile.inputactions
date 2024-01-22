@@ -273,9 +273,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Open menu: X",
+                    "name": "Open menu: Menu Button",
                     "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{LeftHand}/menuButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
