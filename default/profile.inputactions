@@ -2,6 +2,114 @@
     "name": "DefaultInputs",
     "maps": [
         {
+            "name": "Controls",
+            "id": "80e5e9eb-ce0b-4a64-851a-3ac2d9638118",
+            "actions": [
+                {
+                    "name": "Reset Height",
+                    "type": "Button",
+                    "id": "b2ec8a93-37f0-4385-9b52-c9003309f1af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "765099c4-7c97-45b9-849b-1b8e5e6dd641",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Turn",
+                    "type": "Value",
+                    "id": "ac8cad95-23ff-4fde-9385-b25d7b04b868",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pivot",
+                    "type": "Value",
+                    "id": "f028cb64-a3f7-4101-90d4-30cc1fb73592",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "8131f75e-cf47-4787-bd52-07dd45d7e2eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Height",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
+                    "path": "<XRController>{RightHand}/primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pivot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "Movement",
             "id": "1560e87b-23aa-4005-bf8b-264f6a3c3736",
             "actions": [
@@ -785,114 +893,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Others",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Controls",
-            "id": "80e5e9eb-ce0b-4a64-851a-3ac2d9638118",
-            "actions": [
-                {
-                    "name": "Reset Height",
-                    "type": "Button",
-                    "id": "b2ec8a93-37f0-4385-9b52-c9003309f1af",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Interact",
-                    "type": "Button",
-                    "id": "765099c4-7c97-45b9-849b-1b8e5e6dd641",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Turn",
-                    "type": "Value",
-                    "id": "ac8cad95-23ff-4fde-9385-b25d7b04b868",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Pivot",
-                    "type": "Value",
-                    "id": "f028cb64-a3f7-4101-90d4-30cc1fb73592",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Sprint",
-                    "type": "Button",
-                    "id": "8131f75e-cf47-4787-bd52-07dd45d7e2eb",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{LeftHand}/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Reset Height",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
-                    "path": "<XRController>{RightHand}/gripButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
-                    "path": "<XRController>{RightHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
-                    "path": "<XRController>{RightHand}/primary2DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pivot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
-                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
