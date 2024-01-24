@@ -416,7 +416,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/secondary2DAxisTouch",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -469,39 +469,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "fa4c6f6b-0907-4b64-a1c5-198b06bb641c",
-                    "path": "OneModifier",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "BuildMode",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "f222fe61-0a9d-4268-8c6c-bd90a7bf5cb9",
-                    "path": "<XRController>{LeftHand}/gripButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "BuildMode",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "abbd819f-a0d6-4910-a3af-ca841cb485d0",
-                    "path": "<XRController>{RightHand}/gripButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "BuildMode",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "",
                     "id": "6ed322cb-9b3b-45b0-939c-907a7b190589",
                     "path": "<XRController>{RightHand}/primaryButton",
@@ -513,46 +480,35 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "41f505e0-3fd9-464c-9786-711d26c381e1",
-                    "path": "OneModifier",
+                    "name": "Jump: A",
+                    "id": "89c5286d-48e3-4311-88ea-abcce1b5b5c4",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Delete",
-                    "isComposite": true,
+                    "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "ce24e50e-7281-4ca8-bed0-c5a68fde97ca",
-                    "path": "<XRController>{LeftHand}/TriggerButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "a3c82252-54fe-4cfd-8202-207869b72ec4",
-                    "path": "<XRController>{RightHand}/TriggerButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/Secondary2DAxisTouch",
+                    "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Discard: B",
+                    "id": "b9c80436-587d-44df-83bb-4e1ad7b0533b",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BuildMode",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

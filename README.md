@@ -17,7 +17,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `leftgrip_sprint` _(DEPRECATED)_           | @dzgreka                                 | This derivative of the default profile swaps the secondary use, and sprint button                                                                               |
 | `index_touchpads` _(DEPRECATED)_           | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                                              |
 | `htc_vive` _(DEPRECATED)_                  | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                                                            |
-| `wmr_rebound_jump_and_drop` _(DEPRECATED)_ | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                                             |
+| `reverb_g2`                                | @Collin8000 @danielallencoates          | Adds support fot the HP Reverb G2 controllers by rebinding several functions to A, B, X, and Y                                                            |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'                                   |
 
 > ⚠️ _(DEPRECATED)_ profiles are not (yet) compatible with the LCVR 1.1.0 update! They will only work on LCVR 1.0.0 and 1.0.1!
