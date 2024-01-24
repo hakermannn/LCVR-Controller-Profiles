@@ -416,7 +416,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/secondary2DAxisTouch",
+                    "path": "<XRController>{LeftHand}/touchpadClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -548,7 +548,7 @@
                 {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/Secondary2DAxisTouch",
+                    "path": "<XRController>{RightHand}/touchpadClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
