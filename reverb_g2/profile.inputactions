@@ -416,7 +416,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/SecondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -469,28 +469,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "6ed322cb-9b3b-45b0-939c-907a7b190589",
-                    "path": "<XRController>{RightHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ConfirmBuildMode",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Jump: A",
-                    "id": "89c5286d-48e3-4311-88ea-abcce1b5b5c4",
-                    "path": "<XRController>{RightHand}/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
                     "path": "<XRController>{RightHand}/primaryButton",
@@ -502,15 +480,81 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Discard: B",
-                    "id": "b9c80436-587d-44df-83bb-4e1ad7b0533b",
-                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "name": "One Modifier",
+                    "id": "6ef8a543-f49f-4440-af47-fc648b516484",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BuildMode",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "068b211c-e2d3-4259-a748-225a504e44da",
+                    "path": "<XRController>{LeftHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "BuildMode",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "b3de9a52-2b64-46de-a5b4-09ce3473793c",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BuildMode",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Jump: A",
+                    "id": "bea6ada3-9604-4d9a-ba03-3652cfbc3b96",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceButton",
+                    "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "57ea7a25-f03a-4551-ba4d-b8d2eb48ad5f",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "a1f59321-b321-46cb-94a6-7d871750dc2f",
+                    "path": "<XRController>{LeftHand}/TriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "e2a429a1-b4bb-4abf-88d2-f6fc028de3b9",
+                    "path": "<XRController>{RightHand}/TriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },

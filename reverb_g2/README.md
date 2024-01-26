@@ -13,19 +13,19 @@
 |      Crouch      | Ctrl             | R Joystick Click  |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
-|     Discard      | G                | X Button          |                                                                   |
+|     Discard      | G                | B Button          |                                                                   |
 |    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
 |     PingScan     | RMB              | Left Trigger      |                                                                   |
-|    BuildMode     | B                | Y Button          | Press both buttons simultaneously to go into build mode           |
-|      Delete      | X                | B Button          |                                                                   |
+|    BuildMode     | B                | L + R Grip        | Press both buttons simultaneously to go into build mode           |
+|      Delete      | X                | L + R Trigger     |                                                                   |
 |  QEItemInteract  | Q, E             | (Disabled)        | Depricated since V45, Use secondary and tertiary use instead      |
 |    EnableChat    | Slash            | (Disabled)        | Chat is just not something we want to do in VR                    |
 |    SubmitChat    | Enter            | (Disabled)        | Chat is just not something we want to do in VR                    |
 | ReloadBatteries  | R                | (Disabled)        | Building mode prop rotating. In VR this uses Pivot in `VR Inputs` |
 |   InspectItem    | Z                | (Disabled)        | Only for clipboard, disabled because there's more important stuff |
-|   VoiceButton    | T                | (Disabled)        | IDK arbitary push to talk is not very favorable in VR             |
+|   VoiceButton    | T                | Y Button          | IDK arbitary push to talk is not very favorable in VR             |
 |      Emote1      | 1                | (Disabled)        | Will not bother adding this into VR                               |
 |      Emote2      | 2                | (Disabled)        | Will not bother adding this into VR                               |
 | ConfirmBuildMode | V                | (Disabled)        | Unused in the base game                                           |
