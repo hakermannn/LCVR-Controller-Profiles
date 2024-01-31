@@ -66,7 +66,7 @@
                 {
                     "name": "",
                     "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "path": "<XRController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -76,19 +76,8 @@
                 },
                 {
                     "name": "",
-                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
-                    "path": "<XRController>{RightHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
-                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "path": "<XRController>{RightHand}/joystick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -99,11 +88,22 @@
                 {
                     "name": "",
                     "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
-                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "path": "<XRController>{LeftHand}/joystickClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
+                    "path": "<XRController>{RightHand}/joystick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -183,7 +183,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "ActivateItem",
@@ -361,7 +361,7 @@
                 {
                     "name": "Movement: Left Joystick",
                     "id": "d0867b86-3e34-47cd-ab7d-a8ce13550b20",
-                    "path": "<XRController>{LeftHand}/Primary2DAxis",
+                    "path": "<XRController>{LeftHand}/joystick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -370,53 +370,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Open menu: X",
-                    "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/Menu",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "OpenMenu",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Crouch: Right Joystick Click",
-                    "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Use: Right Trigger",
-                    "id": "6527e10c-1acf-410f-b439-7e2db96bf25d",
-                    "path": "<XRController>{RightHand}/triggerButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Use",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Activate Item: Right Trigger",
-                    "id": "6d80dd41-4bf1-4581-bf98-839b02e7219b",
-                    "path": "<XRController>{RightHand}/triggerButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ActivateItem",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/{Secondary2dAxisClick}",
+                    "path": "<XRController>{LeftHand}/touchpadClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -427,7 +383,7 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<XRController>{RightHand}/primary2DAxis/y",
+                    "path": "<XRController>{RightHand}/joystick/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -449,7 +405,7 @@
                 {
                     "name": "Secondary Use: Left Grip Button",
                     "id": "6dc32574-fab3-4107-b005-12d695167d5d",
-                    "path": "<XRController>{LeftHand}/gripButton",
+                    "path": "<XRController>{LeftHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -460,7 +416,7 @@
                 {
                     "name": "Tertiary Use: Right Grip Button",
                     "id": "8d5f176f-b552-4550-9e45-3d3df19b9a06",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "path": "<XRController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -482,7 +438,7 @@
                 {
                     "name": "modifier",
                     "id": "f222fe61-0a9d-4268-8c6c-bd90a7bf5cb9",
-                    "path": "<XRController>{LeftHand}/gripButton",
+                    "path": "<XRController>{LeftHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -493,7 +449,7 @@
                 {
                     "name": "binding",
                     "id": "abbd819f-a0d6-4910-a3af-ca841cb485d0",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "path": "<XRController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -526,9 +482,9 @@
                 {
                     "name": "modifier",
                     "id": "ce24e50e-7281-4ca8-bed0-c5a68fde97ca",
-                    "path": "<XRController>{LeftHand}/TriggerButton",
+                    "path": "<XRController>{LeftHand}/Trigger",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "AxisDeadzone(min=0.95,max=1)",
                     "groups": "",
                     "action": "Delete",
                     "isComposite": false,
@@ -537,9 +493,9 @@
                 {
                     "name": "binding",
                     "id": "a3c82252-54fe-4cfd-8202-207869b72ec4",
-                    "path": "<XRController>{RightHand}/TriggerButton",
+                    "path": "<XRController>{RightHand}/Trigger",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "AxisDeadzone(min=0.95,max=1)",
                     "groups": "",
                     "action": "Delete",
                     "isComposite": false,
@@ -548,11 +504,55 @@
                 {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/{Secondary2DAxisClick}",
+                    "path": "<XRController>{RightHand}/touchpadClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Open menu: X",
+                    "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
+                    "path": "<XRController>{LeftHand}/Menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Crouch: Right Joystick Click",
+                    "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
+                    "path": "<XRController>{RightHand}/joystickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Ping Scan: Left Trigger Button",
+                    "id": "7a488a12-7724-41cb-bbda-4f5774e3110d",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.95,max=1)",
+                    "groups": "",
+                    "action": "Use",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Ping Scan: Left Trigger Button",
+                    "id": "4d9139a7-72e7-4146-86e2-7eac49b89e71",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.95,max=1)",
+                    "groups": "",
+                    "action": "ActivateItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
