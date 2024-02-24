@@ -34,10 +34,11 @@
 
 ## VR Controls
 
-|    Action    | Bind              | Notes                                                                                   |
-| :----------: | ----------------- | --------------------------------------------------------------------------------------- |
-| Reset Height | L Menu Button     | Recalculates the offset between your headset and the floor                              |
-|     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
-|     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
-|    Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
-|    Sprint    | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |
+|    Action     | Bind              | Notes                                                                                   |
+| :-----------: | ----------------- | --------------------------------------------------------------------------------------- |
+| Reset Height  | L Menu Button     | Recalculates the offset between your headset and the floor                              |
+|   Interact    | R Grip Button     | The grab and interact button for world interactables                                    |
+| Interact Left | L Grip Button     | The grab and interact button for world interactables (left hand)                        |
+|     Turn      | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
+|     Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
+|    Sprint     | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |

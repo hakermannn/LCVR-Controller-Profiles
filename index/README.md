@@ -34,38 +34,11 @@
 
 ## VR Controls
 
-|    Action    | Bind              | Notes                                                                                   |
-| :----------: | ----------------- | --------------------------------------------------------------------------------------- |
-| Reset Height | Y                 | Recalculates the offset between your headset and the floor                              |
-|     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
-|     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
-|    Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
-|    Sprint    | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |
-
-## Diff with `default`
-
-> Last updated: **22 Jan 2024**
-
-`$ diff -u default/profile.inputactions index/profile.inputactions`
-```diff
---- default/profile.inputactions        2024-01-22 18:40:34.850776800 +0100
-+++ index/profile.inputactions  2024-01-22 22:41:27.613311500 +0100
-@@ -297,7 +297,7 @@
-                 {
-                     "name": "Use: Right Trigger",
-                     "id": "6527e10c-1acf-410f-b439-7e2db96bf25d",
--                    "path": "<XRController>{RightHand}/triggerButton",
-+                    "path": "<XRController>{RightHand}/trigger",
-                     "interactions": "",
-                     "processors": "",
-                     "groups": "",
-@@ -308,7 +308,7 @@
-                 {
-                     "name": "Activate Item: Right Trigger",
-                     "id": "6d80dd41-4bf1-4581-bf98-839b02e7219b",
--                    "path": "<XRController>{RightHand}/triggerButton",
-+                    "path": "<XRController>{RightHand}/trigger",
-                     "interactions": "",
-                     "processors": "",
-                     "groups": "",
-```
+|    Action     | Bind              | Notes                                                                                   |
+| :-----------: | ----------------- | --------------------------------------------------------------------------------------- |
+| Reset Height  | Y                 | Recalculates the offset between your headset and the floor                              |
+|   Interact    | R Grip Button     | The grab and interact button for world interactables                                    |
+| Interact Left | L Grip Button     | The grab and interact button for world interactables (left hand)                        |
+|     Turn      | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
+|     Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
+|    Sprint     | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |
