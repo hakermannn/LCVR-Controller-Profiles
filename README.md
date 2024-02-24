@@ -23,6 +23,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `htc_vive_alt`                             | [@FloofyBoof](https://github.com/FloofyBoof) | Uses tap and hold inputs to combine multiple actions to the same button. (e.g. Ping and Open Menu share the left menu button)                                   |
 | `leftgrip_sprint`                          | @dzgreka                                     | This derivative of the default profile swaps the secondary use, and sprint button                                                                               |
 | `index_touchpads`                          | [@Bontebok](https://github.com/Bontebok) (pre 1.1.0), @Coomquat     | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                       |
+| `index_lefthanded_movement`                | @EnrageKoala                                 | Index controllers, switched movement and turning actions between left and right.                                                                                |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                     | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'                                   |
 
 
