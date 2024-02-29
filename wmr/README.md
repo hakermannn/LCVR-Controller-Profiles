@@ -1,6 +1,6 @@
 # WMR Controller Bindings
 
-## LC Controls
+## Lethal Company Controls
 
 |      Action      | PC               | VR               | Notes                                                             |
 | :--------------: | ---------------- | ---------------- | ----------------------------------------------------------------- |
