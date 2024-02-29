@@ -1,6 +1,6 @@
-# Default Controller Profile
+# HTC Vive Controller Profile
 
-## LC Controls
+## Lethal Company Controls
 
 |      Action      | PC               | VR                | Notes                                                             |
 | :--------------: | ---------------- | ----------------- | ----------------------------------------------------------------- |
