@@ -1,6 +1,6 @@
-# Reverb G2 Controller Bindings
+# HP Reverb G2 Controller Bindings
 
-## LC Controls
+## Lethal Company Controls
 
 |      Action      | PC               | VR               | Notes                                                             |
 | :--------------: | ---------------- | ---------------- | ----------------------------------------------------------------- |
