@@ -1,5 +1,5 @@
 {
-    "name": "DefaultInputs",
+    "name": "fuckedturning",
     "maps": [
         {
             "name": "Controls",
@@ -64,7 +64,7 @@
                 {
                     "name": "",
                     "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "path": "<XRController>{LeftHand}/{menuButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -456,15 +456,37 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Switch Item: Right Joystick Y",
-                    "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<XRController>{RightHand}/primary2DAxis/y",
+                    "name": "One Modifier",
+                    "id": "f6b19020-a659-4aed-83ed-bf11e3d81214",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchItem",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "75f0af9d-7705-4c9f-a1fd-741924fecbd1",
+                    "path": "<XRController>{LeftHand}/{secondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "2d2ad525-7269-465b-863b-e629060e76ad",
+                    "path": "<XRController>{LeftHand}/primary2DAxis/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchItem",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "Ping Scan: Left Trigger Button",
