@@ -24,6 +24,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | ❗`index_touchpads`           | [@Bontebok](https://github.com/Bontebok) (pre 1.1.0), @Coomquat | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                                              |
 | ❗`index_lefthanded_movement` | @EnrageKoala                                                    | Index controllers, switched movement and turning actions between left and right.                                                                                |
 | ❗`wmr_gripsprint_joystickdrop` | @UnityMakesWorlds                                             | wmr controllers, switched sprint to grip and drop item to left stick click.                                                                                     |
+| ❗`leftstick_only`            | [@hakermannn](https://github.com/hakermannn)                    | ONLY WORKS ON QUEST rebinds Y to menu, hold y to make leftstick act like base rightstick                                                                        |
 
 > Profiles with an `✨` emoji are built into the mod itself and don't need to be explicitly set in the config
 
