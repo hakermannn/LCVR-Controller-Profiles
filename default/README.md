@@ -14,7 +14,7 @@
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
 |     Discard      | G                | B                 |                                                                   |
-|    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
+|    SwitchItem    | ScrollY          | Y + L Joystick Y  |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
 |     PingScan     | RMB              | Left Trigger      |                                                                   |
@@ -36,9 +36,9 @@
 
 |    Action     | Bind              | Notes                                                                                   |
 | :-----------: | ----------------- | --------------------------------------------------------------------------------------- |
-| Reset Height  | Y                 | Recalculates the offset between your headset and the floor                              |
+| Reset Height  | Menu              | Recalculates the offset between your headset and the floor                              |
 |   Interact    | R Grip Button     | The grab and interact button for world interactables                                    |
 | Interact Left | L Grip Button     | The grab and interact button for world interactables (left hand)                        |
-|     Turn      | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
-|     Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
+|     Turn      | Y + L Joystick X  | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
+|     Pivot     | L Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
 |    Sprint     | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |
