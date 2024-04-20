@@ -1,5 +1,5 @@
 {
-    "name": "fuckedturning",
+    "name": "LeftStick Only",
     "maps": [
         {
             "name": "Controls",
@@ -85,19 +85,8 @@
                 },
                 {
                     "name": "",
-                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
-                    "path": "<XRController>{RightHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
-                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -126,6 +115,39 @@
                     "action": "InteractLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "ecb7963f-d3b3-4d6c-9de8-8091ed3ea865",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "72f1f831-f964-4cde-8913-f0153996baff",
+                    "path": "<XRController>{LeftHand}/{secondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "cd373af8-9bec-4c56-aee4-4627c4878f33",
+                    "path": "<XRController>{LeftHand}/primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
