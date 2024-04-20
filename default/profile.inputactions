@@ -1,5 +1,5 @@
 {
-    "name": "left_stick_only",
+    "name": "DefaultInputs",
     "maps": [
         {
             "name": "Controls",
@@ -64,7 +64,7 @@
                 {
                     "name": "",
                     "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{LeftHand}/{menuButton}",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -85,8 +85,19 @@
                 },
                 {
                     "name": "",
+                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
+                    "path": "<XRController>{RightHand}/primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
-                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -115,39 +126,6 @@
                     "action": "InteractLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "One Modifier",
-                    "id": "ecb7963f-d3b3-4d6c-9de8-8091ed3ea865",
-                    "path": "OneModifier",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "72f1f831-f964-4cde-8913-f0153996baff",
-                    "path": "<XRController>{LeftHand}/{secondaryButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "cd373af8-9bec-4c56-aee4-4627c4878f33",
-                    "path": "<XRController>{LeftHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 }
             ]
         },
@@ -478,37 +456,15 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "f6b19020-a659-4aed-83ed-bf11e3d81214",
-                    "path": "OneModifier",
+                    "name": "Switch Item: Right Joystick Y",
+                    "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
+                    "path": "<XRController>{RightHand}/primary2DAxis/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
-                    "isComposite": true,
+                    "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "75f0af9d-7705-4c9f-a1fd-741924fecbd1",
-                    "path": "<XRController>{LeftHand}/{secondaryButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SwitchItem",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "2d2ad525-7269-465b-863b-e629060e76ad",
-                    "path": "<XRController>{LeftHand}/primary2DAxis/y",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SwitchItem",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "Ping Scan: Left Trigger Button",
